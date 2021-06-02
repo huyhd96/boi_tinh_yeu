@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Xem bói tình duyên theo năm sinh</h1>
+        <div class="input_data">
+            <div class="textflied">
+                <label>Năm sinh bạn nam (Dương Lịch)</label>
+                <input placeholder="nhập năm sinh của bạn" id="year1" type="number" required>
+            </div>
+            <div class="textflied">
+                <label>Năm sinh bạn nữ (Dương Lịch)</label>
+                <input placeholder="nhập năm sinh của bạn" id="year2" type="number" required>
+            </div>
+        </div>
+        <button onclick="test()">Kết Quả</button>
+        <div id="result_good">
+            <p>Các bạn thuộc tam hợp, ngại ngùng gì mà chưa tới với nhau</p>
+            <br>
+            <p>Chúc mừng hạnh phúc hai bạn</p>
+        </div>
+        <div id="result_bad">
+            <p>Các bạn thuộc tứ hàng xung, đến với nhau chỉ thêm khổ đau thôi</p>
+            <br>
+            <p>Chia tay đi, mau chia tay đi</p>
+        </div>
+        <div id="result_none">
+            <p>Cái này hôm đấy mình bỏ học nên không biết :))</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

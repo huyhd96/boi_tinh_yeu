@@ -1,0 +1,83 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/GUmdD9q.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'BaseFiolexGirl';
+}
+
+.textflied {
+    display: grid;
+    width: 100%
+}
+
+.input_data {
+    margin: 12px 0;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2em;
+    text-align: center;
+}
+
+#result_good {
+    display: none;
+    text-align: center;
+    border: pink solid 3px;
+    width: 50%;
+    margin-top: 24px;
+    background-color: white;
+    color: #000;
+    font-size: 1.5em;
+}
+
+#result_bad {
+    display: none;
+    text-align: center;
+    border: pink solid 3px;
+    width: 50%;
+    margin-top: 24px;
+    background-color: white;
+    color: #000;
+    font-size: 1.5em;
+}
+
+#result_none {
+    display: none;
+    text-align: center;
+    border: pink solid 3px;
+    width: 50%;
+    margin-top: 24px;
+    background-color: white;
+    color: #000;
+    font-size: 1.5em;
+}
+
+input {
+    margin: 8px 12px;
+    padding: 12px;
+}
+
+button {
+    padding: 12px;
+    background-color: chartreuse;
+}
+
+label {
+    margin: 8px 12px;
+}
+
+h1 {
+    text-align: center;
+}
