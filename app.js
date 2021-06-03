@@ -13,88 +13,134 @@ function test() {
                 n = "Thân";
                 if (b == 6 || b == 3 || b == 9) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 4 || b == 8) {
                     document.getElementById('result_good').style.display = 'block'
-
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 1:
                 n = "Dậu";
                 if (b == 4 || b == 7 || b == 10) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 5 || b == 9) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 2:
                 n = "Tuất";
                 if (b == 8 || b == 5 || b == 11) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 6 || b == 10) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 3:
                 n = "Hợi";
                 if (b == 6 || b == 0 || b == 9) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 11 || b == 7) {
                     document.getElementById('result_good').style.display = 'block'
-
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 4:
                 n = "Tý";
                 if (b == 7 || b == 10 || b == 1) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 8 || b == 0) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 5:
                 n = "Sửu";
                 if (b == 8 || b == 11 || b == 2) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 6 || b == 9) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 6:
                 n = "Dần";
                 if (b == 3 || b == 9 || b == 0) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 2 || b == 10) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 7:
                 n = "Mẹo";
                 if (b == 10 || b == 1 || b == 4) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 11 || b == 3) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 8:
@@ -103,42 +149,62 @@ function test() {
                     document.getElementById('result_bad').style.display = 'block'
                 } else if (b == 4 || b == 1) {
                     document.getElementById('result_good').style.display = 'block'
-
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 9:
                 n = "Tỵ";
                 if (b == 3 || b == 0 || b == 6) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 5 || b == 1) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 10:
                 n = "Ngọ";
                 if (b == 7 || b == 1 || b == 4) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 6 || b == 2) {
                     document.getElementById('result_good').style.display = 'block'
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
 
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
             case 11:
                 n = "Mùi";
                 if (b == 8 || b == 2 || b == 5) {
                     document.getElementById('result_bad').style.display = 'block'
+                    document.getElementById('result_good').style.display = 'none'
+                    document.getElementById('result_none').style.display = 'none'
                 } else if (b == 3 || b == 7) {
                     document.getElementById('result_good').style.display = 'block'
-
+                    document.getElementById('result_none').style.display = 'none'
+                    document.getElementById('result_bad').style.display = 'none'
                 } else {
                     document.getElementById('result_none').style.display = 'block'
+                    document.getElementById('result_bad').style.display = 'none'
+                    document.getElementById('result_good').style.display = 'none'
                 }
                 break;
         }
